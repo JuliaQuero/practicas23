@@ -15,4 +15,4 @@ En la carpeta resultados se encuentran las tablas resumen con los f1 obtenidos. 
 	Kim para las trazas del dataset
 	kjfkla par las trazas del dataset
 
-En la carpeta trazas_de_imagenes se encuentran las carpetas con los datasets de imágenes generadas y el archivo lisTraza.csv, que recoge los valores asignados a cada parámetro para la creación de cada traza.
+El archivo lisTraza.csv recoge los valores asignados a cada parámetro para la creación de cada dataset de imágenes. Estos datasets se pueden encontrar en el repositorio https://github.com/JuliaQuero/img_dataset 
