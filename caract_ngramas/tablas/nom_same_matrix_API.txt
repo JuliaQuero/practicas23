@@ -1,0 +1,151 @@
+Worm coincide con Trojan en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('GetSysColor', 'GetSysColorBrush', 'GetStockObject')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('IsBadWritePtr', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetSystemMetrics')
+('SystemParametersInfo', 'GetSystemMetrics', 'LocalAlloc')
+('FindResourceEx', 'LoadResource', 'LoadString')
+
+
+Worm coincide con PUP en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+
+
+Worm coincide con Backdoor en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('GetSysColor', 'GetSysColorBrush', 'GetStockObject')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('IsBadWritePtr', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetSystemMetrics')
+('SystemParametersInfo', 'GetSystemMetrics', 'LocalAlloc')
+('FindResourceEx', 'LoadResource', 'LoadString')
+
+
+Worm coincide con Packed en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('GetSysColor', 'GetSysColorBrush', 'GetStockObject')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('FindResourceEx', 'LoadResource', 'LoadString')
+
+
+Trojan coincide con PUP en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+
+
+Trojan coincide con Backdoor en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('GetSysColor', 'GetSysColorBrush', 'GetStockObject')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('IsBadWritePtr', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetSystemMetrics')
+('SystemParametersInfo', 'GetSystemMetrics', 'LocalAlloc')
+('FindResourceEx', 'LoadResource', 'LoadString')
+
+
+Trojan coincide con Packed en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('GetSysColor', 'GetSysColorBrush', 'GetStockObject')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('FindResourceEx', 'LoadResource', 'LoadString')
+('CreateFileMapping', 'CreateFileMapping', 'MapViewOfFileEx')
+
+
+PUP coincide con Backdoor en: 
+('LoadLibraryEx', 'SearchPath', 'CreateFile')
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('GetVersionEx', 'GetModuleHandle', 'GetModuleHandle')
+('GetModuleHandle', 'GetModuleHandle', 'GetProcAddress')
+('LocalAlloc', 'lstrlen', 'LocalFree')
+('lstrlen', 'LocalFree', 'CreateSemaphore')
+('LocalFree', 'CreateSemaphore', 'CreateSemaphore')
+('CreateFile', 'CreateFileMapping', 'CloseHandle')
+('CreateFileMapping', 'CloseHandle', 'MapViewOfFileEx')
+('GetVersionEx', 'GetVersionEx', 'GetModuleHandle')
+
+
+PUP coincide con Packed en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+
+
+Backdoor coincide con Packed en: 
+('SearchPath', 'CreateFile', 'CreateFileMapping')
+('GetSystemMetrics', 'RegisterClipboardFormat', 'SystemParametersInfo')
+('RegisterClipboardFormat', 'SystemParametersInfo', 'GetDC')
+('SystemParametersInfo', 'GetDC', 'GetDeviceCaps')
+('GetDC', 'GetDeviceCaps', 'ReleaseDC')
+('GetDeviceCaps', 'ReleaseDC', 'LocalAlloc')
+('GetSysColor', 'GetSysColorBrush', 'GetStockObject')
+('LoadCursor', 'RegisterClass', 'RegisterClassEx')
+('RegisterClass', 'RegisterClassEx', 'LoadLibraryEx')
+('RegisterClassEx', 'LoadLibraryEx', 'LoadLibrary')
+('FindResourceEx', 'LoadResource', 'LoadString')
+
+

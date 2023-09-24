@@ -1,0 +1,114 @@
+Worm - realmente hay 6 secuencias
+
+(1) SearchPath,CreateFile,CreateFileMapping	753	2215
+
+(2) GetSysColor,GetSysColorBrush,GetStockObject	596	881,LoadLibrary	538	538,LoadLibraryEx	538	538
+
+(3) GetSystemMetrics,RegisterClipboardFormat,SystemParametersInfo,GetDC,GetDeviceCaps,ReleaseDC,LocalAlloc	670	671
+Aparecen todos en exactamente 670 trazas, el último n-grama con una ocurrencia de 1 más, y el penúltimo con ocurrencia de 680.
+
+(4) LoadCursor,RegisterClass,RegisterClassEx	(668	668),LoadLibraryEx,LoadLibrary	(606	606)
+
+(5) IsBadWritePtr,RegisterClipboardFormat,SystemParametersInfo(586	586), GetSystemMetrics(585	586),LocalAlloc	586	587
+
+
+(6) FindResourceEx,LoadResource,LoadString	616	726
+
+
+Diferencia a los worms de los troyanos:
+GetSysColorBrush,GetStockObject,LoadLibrary	538	538,LoadLibraryEx	538	538
+
+
+Diferencia a los troyanos de los worms:
+CreateFileMapping,CreateFileMapping,MapViewOfFileEx	6697	7923
+
+Backdoor
+Es como los troyanos, pero no tiene el mismo que no tiene los worms y en su lugar tiene
+
+(7) CreateFile,CreateFileMapping,CloseHandle	385	1250
+
+y además
+
+LoadLibraryEx,SearchPath,CreateFile	377	1101
+(8) GetVersionEx,GetVersionEx,GetModuleHandle	363	765,GetModuleHandle	373	638,GetProcAddress	414	1688
+(9) LocalAlloc,lstrlen,LocalFree	376	384,CreateSemaphore	376	376,CreateSemaphore	376	377
+CreateFile,CreateFileMapping,CloseHandle	385	1250
+
+
+
+
+PUP: Los n-gramas únicos de PUP son // Nota: el que más se parece es con Backdoor
+Esto es lo que difiere de Backdoor, que también difiere del resto (son los mismos procesos reducidos). También nos da una idea de qué llamadas son innecesarias y de cuáles son relleno.
+
+(10) [('lstrcpyn', 'LoadLibraryEx', 'SearchPath'), 
+
+('GetModuleHandle', 'GetProcAddress', 'LocalAlloc'), ('GetProcAddress', 'LocalAlloc', 'lstrlen'),
+
+ ('LoadLibraryEx', 'LoadLibraryEx', 'LoadLibrary'), ('LoadLibraryEx', 'LoadLibrary', 'GetProcAddress'), 
+
+(11) ('GetACP', 'GetModuleFileName', 'GetModuleHandle'), 
+
+('CloseHandle', 'MapViewOfFileEx', 'UnmapViewOfFile'), 
+
+(****) ('ReleaseDC', 'LocalAlloc', 'LocalFree'), ('LocalAlloc', 'LocalFree', 'CloseHandle'), ('LocalFree', 'CloseHandle', 'GetSystemMetrics'), ('CloseHandle', 'GetSystemMetrics', 'GetSysColor'), ('GetSystemMetrics', 'GetSysColor', 'SystemParametersInfo'), ('GetSysColor', 'SystemParametersInfo', 'GetSysColorBrush'), ('SystemParametersInfo', 'GetSysColorBrush', 'GetStockObject'), ('GetSysColorBrush', 'GetStockObject', 'GetModuleHandle'), ('GetStockObject', 'GetModuleHandle', 'GetProcAddress'), ('GetModuleHandle', 'GetProcAddress', 'LoadCursor'), ('GetProcAddress', 'LoadCursor', 'RegisterClass'), 
+
+('LoadLibraryEx', 'LoadLibrary', 'GetVersionEx'), ('LoadLibrary', 'GetVersionEx', 'GetVersionEx'), 
+
+('GetModuleFileName', 'GetModuleHandle', 'GetProcAddress'), ('GetModuleHandle', 'GetProcAddress', 'GetCurrentThreadId')]
+
+
+
+Esto es lo que difiere de Worm, Trojan y Packed --- Igual que para Packed, mejor considerar solo con Backdoor
+[('lstrcpyn', 'LoadLibraryEx', 'SearchPath'), ('LoadLibraryEx', 'SearchPath', 'CreateFile'),
+ 
+('GetVersionEx', 'GetModuleHandle', 'GetModuleHandle'), ('GetModuleHandle', 'GetModuleHandle', 'GetProcAddress'), ('GetModuleHandle', 'GetProcAddress', 'LocalAlloc'), ('GetProcAddress', 'LocalAlloc', 'lstrlen'), ('LocalAlloc', 'lstrlen', 'LocalFree'), ('lstrlen', 'LocalFree', 'CreateSemaphore'), ('LocalFree', 'CreateSemaphore', 'CreateSemaphore'), 
+
+('LoadLibraryEx', 'LoadLibraryEx', 'LoadLibrary'), ('LoadLibraryEx', 'LoadLibrary', 'GetProcAddress'), 
+
+('GetACP', 'GetModuleFileName', 'GetModuleHandle'), 
+
+('CreateFile', 'CreateFileMapping', 'CloseHandle'), ('CreateFileMapping', 'CloseHandle', 'MapViewOfFileEx'), ('CloseHandle', 'MapViewOfFileEx', 'UnmapViewOfFile'), 
+
+('ReleaseDC', 'LocalAlloc', 'LocalFree'), ('LocalAlloc', 'LocalFree', 'CloseHandle'), ('LocalFree', 'CloseHandle', 'GetSystemMetrics'), ('CloseHandle', 'GetSystemMetrics', 'GetSysColor'), ('GetSystemMetrics', 'GetSysColor', 'SystemParametersInfo'), ('GetSysColor', 'SystemParametersInfo', 'GetSysColorBrush'), ('SystemParametersInfo', 'GetSysColorBrush', 'GetStockObject'), ('GetSysColorBrush', 'GetStockObject', 'GetModuleHandle'), ('GetStockObject', 'GetModuleHandle', 'GetProcAddress'), ('GetModuleHandle', 'GetProcAddress', 'LoadCursor'), ('GetProcAddress', 'LoadCursor', 'RegisterClass'), 
+
+('LoadLibraryEx', 'LoadLibrary', 'GetVersionEx'), ('LoadLibrary', 'GetVersionEx', 'GetVersionEx'), ('GetVersionEx', 'GetVersionEx', 'GetModuleHandle'), 
+
+('GetModuleFileName', 'GetModuleHandle', 'GetProcAddress'), ('GetModuleHandle', 'GetProcAddress', 'GetCurrentThreadId')]
+
+
+
+
+Packed: Los n-gramas únicos de Packed son
+Los distintos a Trojan son (Packed cuenta con el particular de los troyanos, que es la única diferencia añadida con Wormm y Backdoor)
+
+[('LocalAlloc', 'GetSysColor', 'GetSysColorBrush'), 
+
+(12) ('GetThreadLocale', 'lstrcmpi', 'GlobalAlloc'), ('lstrcmpi', 'GlobalAlloc', 'GlobalFree'), ('GlobalAlloc', 'GlobalFree', 'FindResourceEx'), ('GlobalFree', 'FindResourceEx', 'LoadResource'), 
+
+(13) ('LoadResource', 'LoadString', 'lstrcpy'), ('LoadString', 'lstrcpy', 'lstrcat'), ('lstrcpy', 'lstrcat', 'GetThreadLocale'), ('lstrcat', 'GetThreadLocale', 'lstrcmpi'), ('GetThreadLocale', 'lstrcmpi', 'lstrcpyn'), 
+
+('LocalAlloc', 'CreateSemaphore', 'CreateSemaphore'), 
+
+(14) ('DeviceIoControl', 'DuplicateHandle', 'CreateRemoteThread'), ('DuplicateHandle', 'CreateRemoteThread', 'CreateThread'), 
+
+('CreateFile', 'CreateFileMapping', 'MapViewOfFileEx'), 
+
+('ReleaseDC', 'LocalAlloc', 'GetSysColor'), 
+
+('GetSysColorBrush', 'GetStockObject', 'GetSystemMetrics'), ('GetStockObject', 'GetSystemMetrics', 'LoadCursor'), ('GetSystemMetrics', 'LoadCursor', 'RegisterClass'),
+
+(15) ('RaiseException', 'WaitForSingleObjectEx', 'WaitForSingleObject'), ('WaitForSingleObjectEx', 'WaitForSingleObject', 'OpenFileMapping'), 
+('WaitForSingleObject', 'WaitForSingleObjectEx', 'ReleaseMutex')]
+
+(Otra medio continuación)
+(16) ('OpenFileMapping', 'ReleaseMutex', 'OutputDebugString'), 
+
+
+Los distintos a PUP --- No merece la pena diferenciarlo
+[('LocalAlloc', 'GetSysColor', 'GetSysColorBrush'), ('GetSysColor', 'GetSysColorBrush', 'GetStockObject'), /// Este segundo lo tenían Worm por lo menos
+
+('GetThreadLocale', 'lstrcmpi', 'GlobalAlloc'), ('lstrcmpi', 'GlobalAlloc', 'GlobalFree'), ('GlobalAlloc', 'GlobalFree', 'FindResourceEx'), ('GlobalFree', 'FindResourceEx', 'LoadResource'), ('FindResourceEx', 'LoadResource', 'LoadString'), ('LoadResource', 'LoadString', 'lstrcpy'), ('LoadString', 'lstrcpy', 'lstrcat'), ('lstrcpy', 'lstrcat', 'GetThreadLocale'), ('lstrcat', 'GetThreadLocale', 'lstrcmpi'), ('GetThreadLocale', 'lstrcmpi', 'lstrcpyn'),
+/// Tiene los necesarios para unir las dos secuencias de arriba
+
+/// El resto son todos iguales
+

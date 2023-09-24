@@ -1,0 +1,6 @@
+,Worm,Trojan,PUP,Backdoor,Packed
+Worm,0,19,19,19,19
+Trojan,19,0,19,19,19
+PUP,19,19,0,19,19
+Backdoor,19,19,19,0,19
+Packed,19,19,19,19,0

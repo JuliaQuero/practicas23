@@ -1,0 +1,100 @@
+Worm	865
+GetSystemMetrics,RegisterClipboardFormat,SystemParametersInfo,GetDC	670	670
+RegisterClipboardFormat,SystemParametersInfo,GetDC,GetDeviceCaps	670	670
+SystemParametersInfo,GetDC,GetDeviceCaps,ReleaseDC	670	670
+GetDC,GetDeviceCaps,ReleaseDC,LocalAlloc	670	671
+LoadCursor,RegisterClass,RegisterClassEx,LoadLibraryEx	606	606
+RegisterClass,RegisterClassEx,LoadLibraryEx,LoadLibrary	606	606
+IsBadWritePtr,RegisterClipboardFormat,SystemParametersInfo,GetSystemMetrics	585	585
+RegisterClipboardFormat,SystemParametersInfo,GetSystemMetrics,LocalAlloc	585	586
+GetSysColor,GetSysColorBrush,GetStockObject,LoadLibrary	538	538
+GetSysColorBrush,GetStockObject,LoadLibrary,LoadLibraryEx	538	538
+
+Trojan	10847
+GetSystemMetrics,RegisterClipboardFormat,SystemParametersInfo,GetDC	8988	8996
+RegisterClipboardFormat,SystemParametersInfo,GetDC,GetDeviceCaps	8988	8996
+SystemParametersInfo,GetDC,GetDeviceCaps,ReleaseDC	8987	8995
+GetDC,GetDeviceCaps,ReleaseDC,LocalAlloc	9017	9067
+LoadCursor,RegisterClass,RegisterClassEx,LoadLibraryEx	8685	8693
+RegisterClass,RegisterClassEx,LoadLibraryEx,LoadLibrary	8650	8658
+IsBadWritePtr,RegisterClipboardFormat,SystemParametersInfo,GetSystemMetrics	8290	8299
+RegisterClipboardFormat,SystemParametersInfo,GetSystemMetrics,LocalAlloc	8288	8299
+
+PUP	3137
+lstrcpyn,LoadLibraryEx,SearchPath,CreateFile	2014	2014
+LoadLibraryEx,SearchPath,CreateFile,CreateFileMapping	2248	2541
+GetSystemMetrics,RegisterClipboardFormat,SystemParametersInfo,GetDC	3064	3064
+RegisterClipboardFormat,SystemParametersInfo,GetDC,GetDeviceCaps	3064	3064
+SystemParametersInfo,GetDC,GetDeviceCaps,ReleaseDC	3064	3064
+GetDC,GetDeviceCaps,ReleaseDC,LocalAlloc	3064	3064
+LoadCursor,RegisterClass,RegisterClassEx,LoadLibraryEx	2561	2561
+RegisterClass,RegisterClassEx,LoadLibraryEx,LoadLibrary	2559	2559
+GetVersionEx,GetModuleHandle,GetModuleHandle,GetProcAddress	2215	2671
+GetModuleHandle,GetModuleHandle,GetProcAddress,LocalAlloc	2184	2189
+GetModuleHandle,GetProcAddress,LocalAlloc,lstrlen	2551	2551
+GetProcAddress,LocalAlloc,lstrlen,LocalFree	2551	2551
+LocalAlloc,lstrlen,LocalFree,CreateSemaphore	2581	2581
+lstrlen,LocalFree,CreateSemaphore,CreateSemaphore	2581	2581
+LoadLibraryEx,LoadLibraryEx,LoadLibrary,GetProcAddress	2551	2654
+SearchPath,CreateFile,CreateFileMapping,CloseHandle	2573	3001
+CreateFile,CreateFileMapping,CloseHandle,MapViewOfFileEx	2573	3019
+CreateFileMapping,CloseHandle,MapViewOfFileEx,UnmapViewOfFile	2567	2567
+GetDeviceCaps,ReleaseDC,LocalAlloc,LocalFree	2567	2567
+ReleaseDC,LocalAlloc,LocalFree,CloseHandle	2567	2567
+LocalAlloc,LocalFree,CloseHandle,GetSystemMetrics	2567	2567
+LocalFree,CloseHandle,GetSystemMetrics,GetSysColor	2567	2567
+CloseHandle,GetSystemMetrics,GetSysColor,SystemParametersInfo	2567	2567
+GetSystemMetrics,GetSysColor,SystemParametersInfo,GetSysColorBrush	2567	2567
+GetSysColor,SystemParametersInfo,GetSysColorBrush,GetStockObject	2567	2567
+SystemParametersInfo,GetSysColorBrush,GetStockObject,GetModuleHandle	2567	2567
+GetSysColorBrush,GetStockObject,GetModuleHandle,GetProcAddress	2567	2567
+GetStockObject,GetModuleHandle,GetProcAddress,LoadCursor	2567	2567
+GetModuleHandle,GetProcAddress,LoadCursor,RegisterClass	2567	2567
+GetProcAddress,LoadCursor,RegisterClass,RegisterClassEx	2567	2567
+LoadLibraryEx,LoadLibrary,GetVersionEx,GetVersionEx	2050	2050
+GetACP,GetModuleFileName,GetModuleHandle,GetProcAddress	2220	2220
+GetModuleHandle,GetModuleHandle,GetProcAddress,GetCurrentThreadId	1913	2022
+
+Backdoor	582
+GetSystemMetrics,RegisterClipboardFormat,SystemParametersInfo,GetDC	416	416
+RegisterClipboardFormat,SystemParametersInfo,GetDC,GetDeviceCaps	416	416
+SystemParametersInfo,GetDC,GetDeviceCaps,ReleaseDC	416	416
+GetDC,GetDeviceCaps,ReleaseDC,LocalAlloc	426	427
+LoadCursor,RegisterClass,RegisterClassEx,LoadLibraryEx	401	401
+RegisterClass,RegisterClassEx,LoadLibraryEx,LoadLibrary	400	400
+IsBadWritePtr,RegisterClipboardFormat,SystemParametersInfo,GetSystemMetrics	402	402
+RegisterClipboardFormat,SystemParametersInfo,GetSystemMetrics,LocalAlloc	401	401
+LoadLibraryEx,SearchPath,CreateFile,CreateFileMapping	377	1098
+GetVersionEx,GetModuleHandle,GetModuleHandle,GetProcAddress	372	611
+LocalAlloc,lstrlen,LocalFree,CreateSemaphore	376	376
+lstrlen,LocalFree,CreateSemaphore,CreateSemaphore	376	376
+SearchPath,CreateFile,CreateFileMapping,CloseHandle	385	1250
+CreateFile,CreateFileMapping,CloseHandle,MapViewOfFileEx	385	1250
+
+Packed	965
+LocalAlloc,GetSysColor,GetSysColorBrush,GetStockObject	605	952
+GetThreadLocale,lstrcmpi,GlobalAlloc,GlobalFree	689	689
+lstrcmpi,GlobalAlloc,GlobalFree,FindResourceEx	687	687
+GlobalAlloc,GlobalFree,FindResourceEx,LoadResource	689	689
+GlobalFree,FindResourceEx,LoadResource,LoadString	720	720
+FindResourceEx,LoadResource,LoadString,lstrcpy	745	780
+LoadResource,LoadString,lstrcpy,lstrcat	713	713
+LoadString,lstrcpy,lstrcat,GetThreadLocale	673	673
+lstrcpy,lstrcat,GetThreadLocale,lstrcmpi	675	675
+lstrcat,GetThreadLocale,lstrcmpi,lstrcpyn	666	666
+DeviceIoControl,DuplicateHandle,CreateRemoteThread,CreateThread	619	620
+SearchPath,CreateFile,CreateFileMapping,MapViewOfFileEx	685	3136
+GetSystemMetrics,RegisterClipboardFormat,SystemParametersInfo,GetDC	710	711
+RegisterClipboardFormat,SystemParametersInfo,GetDC,GetDeviceCaps	710	711
+SystemParametersInfo,GetDC,GetDeviceCaps,ReleaseDC	710	711
+GetDC,GetDeviceCaps,ReleaseDC,LocalAlloc	711	713
+GetDeviceCaps,ReleaseDC,LocalAlloc,GetSysColor	602	603
+ReleaseDC,LocalAlloc,GetSysColor,GetSysColorBrush	602	603
+GetSysColor,GetSysColorBrush,GetStockObject,GetSystemMetrics	602	603
+GetSysColorBrush,GetStockObject,GetSystemMetrics,LoadCursor	602	603
+GetStockObject,GetSystemMetrics,LoadCursor,RegisterClass	602	603
+GetSystemMetrics,LoadCursor,RegisterClass,RegisterClassEx	602	603
+LoadCursor,RegisterClass,RegisterClassEx,LoadLibraryEx	702	703
+RegisterClass,RegisterClassEx,LoadLibraryEx,LoadLibrary	701	702
+RaiseException,WaitForSingleObjectEx,WaitForSingleObject,OpenFileMapping	606	608
+

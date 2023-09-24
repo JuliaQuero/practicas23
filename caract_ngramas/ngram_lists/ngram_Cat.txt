@@ -1,0 +1,225 @@
+Worm	865
+Memory Management,Synchronization,Synchronization	744	1158
+Files and I/O (Local file system),Disk Management,Memory Management	754	2219
+Mouse Input,Clipboard,Input Feedback Configuration	670	670
+Clipboard,Input Feedback Configuration,Device Context	670	670
+Input Feedback Configuration,Device Context,Device Context	670	670
+Device Context,Device Context,Device Context	670	894
+Device Context,Device Context,Memory Management	670	679
+Windows,Windows GDI,Device Context	596	881
+Cursors,Window Classes,Window Classes	668	669
+Window Classes,Window Classes,Dynamic-Link Libraries (DLLs)	609	807
+Window Classes,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	611	832
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Processes	676	1169
+Dynamic-Link Libraries (DLLs),Processes,Processes	627	881
+Memory Management,Clipboard,Input Feedback Configuration	586	586
+Clipboard,Input Feedback Configuration,Mouse Input	585	586
+Input Feedback Configuration,Mouse Input,Memory Management	586	587
+Windows GDI,Device Context,Dynamic-Link Libraries (DLLs)	658	957
+Device Context,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	658	949
+Strings,National Language Support (NLS),National Language Support (NLS)	678	2463
+National Language Support (NLS),National Language Support (NLS),National Language Support (NLS)	608	2711
+National Language Support (NLS),National Language Support (NLS),Strings	720	2075
+Resource,Resource,Strings	617	734
+Strings,Synchronization,Synchronization	565	796
+Synchronization,Synchronization,Synchronization	758	2969
+Synchronization,Synchronization,System Information Functions	571	635
+Files and I/O (Local file system),Files and I/O (Local file system),Files and I/O (Local file system)	540	5195
+Synchronization,Synchronization,Dynamic-Link Libraries (DLLs)	552	679
+Memory Management,Memory Management,Memory Management	703	3117
+Synchronization,Memory Management,Memory Management	628	1014
+Memory Management,Memory Management,Synchronization	579	851
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),System Information Functions	633	1878
+National Language Support (NLS),National Language Support (NLS),Dynamic-Link Libraries (DLLs)	632	1039
+Memory Management,Strings,Memory Management	649	1153
+System Information Functions,Strings,Strings	554	1360
+Memory Management,Memory Management,Dynamic-Link Libraries (DLLs)	708	1617
+Synchronization,Synchronization,National Language Support (NLS)	535	619
+Synchronization,Synchronization,Memory Management	707	1748
+Dynamic-Link Libraries (DLLs),Memory Management,Strings	603	745
+System Information Functions,Synchronization,Synchronization	557	859
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Memory Management	626	1228
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	529	10360
+
+Trojan	10847
+Memory Management,Synchronization,Synchronization	9954	16588
+Files and I/O (Local file system),Disk Management,Memory Management	9848	25636
+Mouse Input,Clipboard,Input Feedback Configuration	8991	8999
+Clipboard,Input Feedback Configuration,Device Context	8988	8996
+Input Feedback Configuration,Device Context,Device Context	8988	8996
+Device Context,Device Context,Device Context	9159	10504
+Device Context,Device Context,Memory Management	9036	9187
+Windows,Windows GDI,Device Context	8713	14528
+Cursors,Window Classes,Window Classes	8953	8978
+Window Classes,Window Classes,Dynamic-Link Libraries (DLLs)	8740	9325
+Window Classes,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	8806	9915
+Memory Management,Clipboard,Input Feedback Configuration	8293	8302
+Clipboard,Input Feedback Configuration,Mouse Input	8290	8301
+Input Feedback Configuration,Mouse Input,Memory Management	8532	8544
+Windows GDI,Device Context,Dynamic-Link Libraries (DLLs)	8993	11720
+Device Context,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	8994	11593
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Cursors	7527	10084
+Dynamic-Link Libraries (DLLs),Cursors,Window Classes	7525	9817
+Resource,Resource,Strings	6664	9873
+Strings,Strings,National Language Support (NLS)	7254	11570
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Memory Management	6892	13825
+Memory Management,Memory Management,Synchronization	8129	11875
+Memory Management,Memory Management,Dynamic-Link Libraries (DLLs)	9655	23086
+Memory Management,Memory Management,Memory Management	9677	52025
+Memory Management,Memory Management,Strings	7260	14036
+Memory Management,Strings,Memory Management	9209	15049
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),System Information Functions	7370	14547
+System Information Functions,Strings,Strings	7154	15389
+Synchronization,Synchronization,National Language Support (NLS)	7888	8692
+National Language Support (NLS),National Language Support (NLS),National Language Support (NLS)	7675	21016
+National Language Support (NLS),National Language Support (NLS),Strings	8904	16629
+Strings,National Language Support (NLS),National Language Support (NLS)	8332	15719
+National Language Support (NLS),National Language Support (NLS),Dynamic-Link Libraries (DLLs)	8994	11481
+Dynamic-Link Libraries (DLLs),Synchronization,Synchronization	6659	7751
+Synchronization,Synchronization,Memory Management	9339	19472
+Synchronization,Memory Management,Memory Management	8109	11812
+Synchronization,Synchronization,Synchronization	9517	24778
+
+PUP	3137
+Memory Management,Synchronization,Synchronization	3086	4398
+Strings,Dynamic-Link Libraries (DLLs),Files and I/O (Local file system)	2025	2026
+Dynamic-Link Libraries (DLLs),Files and I/O (Local file system),Disk Management	2279	2598
+Files and I/O (Local file system),Disk Management,Memory Management	3072	3740
+Memory Management,Memory Management,Mouse Input	2136	2136
+Memory Management,Mouse Input,Clipboard	2136	2136
+Mouse Input,Clipboard,Input Feedback Configuration	3064	3064
+Clipboard,Input Feedback Configuration,Device Context	3064	3064
+Input Feedback Configuration,Device Context,Device Context	3065	3065
+Device Context,Device Context,Device Context	3068	5734
+Device Context,Device Context,Memory Management	3065	3068
+Cursors,Window Classes,Window Classes	3064	3065
+Window Classes,Window Classes,Dynamic-Link Libraries (DLLs)	2944	3076
+Window Classes,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	2611	2781
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),System Information Functions	2896	4287
+Disk Management,Files and I/O (Local file system),Files and I/O (Local file system)	2079	2777
+Files and I/O (Local file system),Files and I/O (Local file system),Files and I/O (Local file system)	2455	24364
+Memory Management,Memory Management,Dynamic-Link Libraries (DLLs)	2797	4493
+Memory Management,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	2752	4066
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Files and I/O (Local file system)	2207	2299
+Memory Management,Memory Management,Memory Management	2853	10590
+Memory Management,Strings,Memory Management	2733	3065
+Synchronization,Synchronization,National Language Support (NLS)	2014	2225
+National Language Support (NLS),National Language Support (NLS),Dynamic-Link Libraries (DLLs)	2243	2723
+Resource,Resource,Dynamic-Link Libraries (DLLs)	1941	2073
+Dynamic-Link Libraries (DLLs),Memory Management,Strings	2724	3124
+Strings,Memory Management,Synchronization	2655	3158
+Strings,Files and I/O (Local file system),Files and I/O (Local file system)	2075	3735
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Memory Management	2686	7460
+Files and I/O (Local file system),Files and I/O (Local file system),Memory Management	2126	2571
+Handle and Objects,Memory Management,Memory Management	2620	6131
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	2667	30179
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Processes	2104	2932
+Windows GDI,Device Context,Dynamic-Link Libraries (DLLs)	2636	3004
+Device Context,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	2636	2867
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Cursors	2633	2869
+Dynamic-Link Libraries (DLLs),Cursors,Window Classes	2633	2849
+System Information Functions,Unicode and Character Set,National Language Support (NLS)	2100	2101
+System Information Functions,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	2598	4787
+National Language Support (NLS),Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	2583	4463
+Memory Management,Handle and Objects,Memory Management	2592	5321
+System Information Functions,System Information Functions,Dynamic-Link Libraries (DLLs)	2584	4268
+Disk Management,Memory Management,Handle and Objects	2573	3019
+Device Context,Memory Management,Memory Management	2567	2568
+Memory Management,Memory Management,Handle and Objects	2588	4446
+Memory Management,Handle and Objects,Mouse Input	2567	2567
+Handle and Objects,Mouse Input,Windows	2567	2567
+Mouse Input,Windows,Input Feedback Configuration	2567	2567
+Windows,Input Feedback Configuration,Windows GDI	2567	2567
+Input Feedback Configuration,Windows GDI,Device Context	2567	2567
+Dynamic-Link Libraries (DLLs),System Information Functions,System Information Functions	2592	5742
+
+Backdoor	582
+Synchronization,Synchronization,Synchronization	516	1991
+Synchronization,Synchronization,Memory Management	497	1232
+Synchronization,Memory Management,Memory Management	412	939
+Memory Management,Synchronization,Synchronization	512	992
+Files and I/O (Local file system),Disk Management,Memory Management	497	1655
+Mouse Input,Clipboard,Input Feedback Configuration	416	416
+Clipboard,Input Feedback Configuration,Device Context	416	416
+Input Feedback Configuration,Device Context,Device Context	416	416
+Device Context,Device Context,Device Context	440	714
+Device Context,Device Context,Memory Management	426	428
+Windows,Windows GDI,Device Context	408	497
+Cursors,Window Classes,Window Classes	416	416
+Window Classes,Window Classes,Dynamic-Link Libraries (DLLs)	407	488
+Window Classes,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	409	510
+Memory Management,Memory Management,Memory Management	485	2405
+Resource,Resource,Strings	396	561
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Processes	408	991
+Dynamic-Link Libraries (DLLs),Processes,Processes	364	430
+Memory Management,Clipboard,Input Feedback Configuration	402	402
+Clipboard,Input Feedback Configuration,Mouse Input	402	402
+Input Feedback Configuration,Mouse Input,Memory Management	404	404
+Windows GDI,Device Context,Dynamic-Link Libraries (DLLs)	441	731
+Device Context,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	441	727
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Cursors	420	693
+Dynamic-Link Libraries (DLLs),Cursors,Window Classes	417	647
+National Language Support (NLS),National Language Support (NLS),Strings	467	1402
+Dynamic-Link Libraries (DLLs),Files and I/O (Local file system),Disk Management	382	1151
+Memory Management,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	423	881
+Memory Management,Strings,Memory Management	468	1039
+Strings,National Language Support (NLS),National Language Support (NLS)	425	1228
+Memory Management,Memory Management,Dynamic-Link Libraries (DLLs)	473	1009
+National Language Support (NLS),National Language Support (NLS),Dynamic-Link Libraries (DLLs)	434	664
+Memory Management,Memory Management,Synchronization	386	680
+Dynamic-Link Libraries (DLLs),Memory Management,Strings	414	543
+Handle and Objects,Memory Management,Memory Management	429	909
+System Information Functions,System Information Functions,Dynamic-Link Libraries (DLLs)	398	1179
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),System Information Functions	406	1158
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Memory Management	453	1112
+Strings,Memory Management,Synchronization	392	529
+System Information Functions,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	429	1258
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	440	8882
+Dynamic-Link Libraries (DLLs),System Information Functions,System Information Functions	387	1207
+Memory Management,Memory Management,Handle and Objects	408	803
+Disk Management,Memory Management,Handle and Objects	388	1253
+Memory Management,Handle and Objects,Memory Management	407	1515
+
+Packed	965
+Memory Management,Windows,Windows GDI	605	953
+Windows,Windows GDI,Device Context	717	1065
+Synchronization,Synchronization,Memory Management	914	1806
+National Language Support (NLS),Strings,Memory Management	798	854
+Strings,Memory Management,Memory Management	799	889
+Memory Management,Memory Management,Resource	745	782
+Memory Management,Resource,Resource	756	790
+Resource,Resource,Strings	822	897
+Resource,Strings,Strings	755	799
+Strings,Strings,Strings	765	1851
+Strings,Strings,National Language Support (NLS)	826	1274
+Strings,National Language Support (NLS),Strings	749	923
+National Language Support (NLS),Strings,Strings	745	794
+Synchronization,Synchronization,Synchronization	735	1758
+Memory Management,Synchronization,Synchronization	919	1377
+Memory Management,Memory Management,Memory Management	805	1935
+Device Management,Handle and Objects,Processes	621	622
+Handle and Objects,Processes,Processes	628	632
+Files and I/O (Local file system),Disk Management,Memory Management	820	3615
+Disk Management,Memory Management,Memory Management	691	3149
+Mouse Input,Clipboard,Input Feedback Configuration	710	711
+Clipboard,Input Feedback Configuration,Device Context	710	711
+Input Feedback Configuration,Device Context,Device Context	710	711
+Device Context,Device Context,Device Context	713	752
+Device Context,Device Context,Memory Management	711	719
+Device Context,Memory Management,Windows	602	603
+Windows GDI,Device Context,Mouse Input	603	605
+Device Context,Mouse Input,Cursors	602	603
+Mouse Input,Cursors,Window Classes	602	603
+Cursors,Window Classes,Window Classes	710	711
+Window Classes,Window Classes,Dynamic-Link Libraries (DLLs)	703	714
+Window Classes,Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs)	709	727
+Dynamic-Link Libraries (DLLs),Dynamic-Link Libraries (DLLs),Time	649	673
+Dynamic-Link Libraries (DLLs),Time,Time	625	626
+Structured Exception Handling,Synchronization,Synchronization	648	970
+Synchronization,Memory Management,Synchronization	787	833
+Memory Management,Synchronization,Debugging	647	958
+Memory Management,Strings,Memory Management	604	844
+Memory Management,Window Station and Desktop,Window Station and Desktop	614	615
+Memory Management,Memory Management,Dynamic-Link Libraries (DLLs)	853	1629
+Synchronization,Synchronization,National Language Support (NLS)	655	987
+

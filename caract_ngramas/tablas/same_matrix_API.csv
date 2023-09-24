@@ -1,0 +1,6 @@
+,Worm,Trojan,PUP,Backdoor,Packed
+Worm,16,14,9,14,11
+Trojan,14,15,9,14,12
+PUP,9,9,40,18,9
+Backdoor,14,14,18,23,11
+Packed,11,12,9,11,34
